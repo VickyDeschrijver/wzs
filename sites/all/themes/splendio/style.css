@@ -82,10 +82,10 @@ h1, h2, h3 { font-weight: bold; }
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 #header { padding: 0; float: left; }
 
-.header-left { width: 600px; float: left; background: url(images/header-left-bkg.png) no-repeat left top; padding-left: 40px; }
-.header-left .logo { padding: 30px 0px; }
-.header-left .logo .site-title { display: inline; font: bold 50px/55px 'Droid Sans', 'Trebuchet MS', sans-serif; letter-spacing: -3px; background: url(images/logo-icon.png) no-repeat right 0px; padding: 15px 40px 0px 0px;}
-.header-left .logo .site-title a,.header-left .logo .site-title a:visited { color:#2e2e29;}
+.header-left { width: 680px; float: left; background: url(images/header-left-bkg.png) no-repeat left top; padding-left: 40px; }
+.header-left .logo { padding: 30px  0; }
+.header-left .logo .site-title { display: inline; font: bold 50px/55px 'Droid Sans', 'Trebuchet MS', sans-serif; letter-spacing: -3px; background: url(images/logo-icon.png) no-repeat right 0px; padding: 15px  0px 0px 110px; }
+.header-left .logo .site-title a,.header-left .logo .site-title a:visited { color:#2e2e29; float:right;}
 .header-left .logo .site-title a:hover { text-decoration: none; color:#ec8500;}
 .header-left .logo .site-desc { font: normal 18px/18px 'Droid Sans', 'Trebuchet MS', sans-serif; padding: 0px 0px 0px 50px; margin: 0px; color:#b0b1a8; }
 
@@ -334,7 +334,7 @@ h1.page-title span { color:#cc6600; }
 
 /* Footer widget areas 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-#footer-widget-area { background: #008ebc url(images/footer-widget-area-top-bkg.png) no-repeat left top; padding: 55px 40px 25px 40px; overflow: hidden;}
+#footer-widget-area { background: #008ebc url(images/footer-widget-area-top-bkg.png) no-repeat left top; padding: 55px 40px 25px; overflow: hidden; align-content:center;}
 #footer-widget-area-bot { background: #616258 url(images/footer-widget-area-bot-bkg.png) no-repeat left bottom; width: 980px; height: 44px; }
 #footer-widget-area .widget-area div { background: #000; }
 #footer-widget-area .widget-area { float: left; margin-right: 20px; width: 162px; text-shadow: 1px 1px 1px #333; font-size: 13px; line-height: 17px; }
@@ -345,8 +345,8 @@ h1.page-title span { color:#cc6600; }
 #footer-widget-area #first { border-right: solid 1px #3fbbe3; }
 #footer-widget-area #second { border-right: solid 1px #3fbbe3; }
 #footer-widget-area #third { border-right: solid 1px #3fbbe3; }
-#footer-widget-area #fourth { border-right: solid 1px #3fbbe3; }
-#footer-widget-area #fifth { margin-right: 0; }
+#footer-widget-area #fourth { margin-right: 0;}
+/* #footer-widget-area #fifth { margin-right: 0; }*/
 
 /* Footer Site Info
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */

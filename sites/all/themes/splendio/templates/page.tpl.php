@@ -103,7 +103,7 @@
    </div><?php endif; ?>
    </div>
    <div class="header-image" role="banner">
-    <img alt="" src="<?php global $base_url; echo $base_url.'/'.$directory.'/'; ?>images/headers/geometric-<?php echo rand(1, 5); ?>.jpg">
+    <img alt="" src="<?php global $base_url; echo $base_url.'/'.$directory.'/'; ?>images/headers/geometric-<?php echo rand(1, 2); ?>.jpg">
    </div>
 
   </div><!--end header-top-->
@@ -183,7 +183,7 @@
         </div> <!-- / end fourth footer -->
         <div id="fifth" class="widget-area">
           <?php echo theme_get_setting('footer_mega_menu_5'); ?>
-        </div> <!-- / end fifth footer -->
+        </div> <!-- / end fifth footer --> 
     </div>
     <div id="footer-widget-area-bot"></div>
     <?php endif; ?>
